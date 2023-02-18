@@ -5,10 +5,6 @@ profile:
     month: 0o3
   lifestyle:
     exercise: true
-    consumption:
-      alcohol: false
-      tobacco: false
-      nicotine: false
   body:
     weight_kg: 0o221
     height_cm: 0xaa
