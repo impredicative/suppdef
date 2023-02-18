@@ -18,10 +18,25 @@ stack:
     ingredients:
       active:
         vitamin A:  # Only a registered name will be analyzed.
-          form: retinyl palmitate  # Only a registered name will be analyzed.
-          serving: 1500 mcg  # Only a registered unit will be analyzed.
-      inactive: [ dicalcium phosphate, microcrystalline cellulose, silica, vegetable cellulose, vegetable magnesium stearate ]  # Only registered names will be analyzed.
+          substance: retinyl palmitate  # Only a registered name will be analyzed.
+          amount: 1500 mcg  # Only a registered unit will be analyzed.
+      inactive: [dicalcium phosphate, microcrystalline cellulose, silica, vegetable cellulose, vegetable magnesium stearate]  # Only registered names will be analyzed.
     schedule:
       time:
         9 am: 1  # Value can be integer, float, or fraction.
         7:30 pm: 1/2
+  Holy basil leaf extract (ursolic acid):
+    ingredients:
+      active:
+        holy basil:
+          substance: ocimum sanctum
+          form: standardized extract
+          parts: [leaf]
+          amount: 400 mg
+        ursolic acid:
+          amount: 8 mg  # 2% of 400 mg
+      inactive: [maltodextrin, rice flour, gelatin, calcium palmitate, silica]
+    schedule:
+      time:
+        8:30 am: 1
+      day: [monday, wednesday, friday]  # Default is all days.
