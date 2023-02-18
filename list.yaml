@@ -19,9 +19,9 @@ stack:
       active:
         vitamin A:  # Only a registered name will be analyzed.
           form: retinyl palmitate  # Only a registered name will be analyzed.
-          serving: 1500 mcg
+          serving: 1500 mcg  # Only a registered unit will be analyzed.
       inactive: [ dicalcium phosphate, microcrystalline cellulose, silica, vegetable cellulose, vegetable magnesium stearate ]  # Only registered names will be analyzed.
     schedule:
       time:
-        9 am: 1
+        9 am: 1  # Value can be integer, float, or fraction.
         7:30 pm: 1/2
