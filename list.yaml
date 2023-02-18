@@ -3,12 +3,14 @@ profile:
   birth:
     year: 0x7bd
     month: 0o3
+  sex: male
   lifestyle:
     exercise: true
-  body:
+  composition:
     weight_kg: 0o221
     height_cm: 0xaa
     hbalc_dcct: 5.6
+    fat_percent: 18.6
 stack:
   Vitamin A:  # Can be any friendly name.
     ingredients:
