@@ -67,17 +67,28 @@ stack:
     schedule:
       - time: 20:00
         qty: 3
-  Alcohol:
+  Beer:
     ingredients:
       active:
+        beer:
+      profile:
         alcohol:    # Registered alias for "ethanol".
-        amount: 14 g
-      inactive: [beer, wine]
+          amount: 14 g
     schedule:
       - time: 7 pm
         weekday: [Fri]
         month: [false, false, true]
-        qty: 2
+  Wine:
+    ingredients:
+      active:
+        wine:
+      profile:
+        alcohol:    # Registered alias for "ethanol".
+          amount: 14 g
+    schedule:
+      - time: 20
+        weekday: [Fri]
+        month: [false, false, true]
 suppress:  # List of detected alert message IDs to suppress.
   - basil:eugenol:diverticulitis
   - basil:eugenol:proctitis
