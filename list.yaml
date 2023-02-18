@@ -22,9 +22,10 @@ stack:
           amount: 1500 mcg  # Only a registered unit will be analyzed.
       inactive: [dicalcium phosphate, microcrystalline cellulose, silica, vegetable cellulose, vegetable magnesium stearate]  # Only registered names will be analyzed.
     schedule:
-      time:
-        9 am: 1  # Value can be integer, float, or fraction.
-        7:30 pm: 1/2
+      - time: 9 am
+      #  qty: 1  # Default quantity is already 1.
+      - time: 7:30 pm
+        qty: 1/2  # Value can be integer, float, or fraction.
   Boron:
     ingredients:
       active:
@@ -33,9 +34,8 @@ stack:
           amount: 6 mg
       inactive: [rice flour, gelatin, magnesium stearate, maltodextrin]
   schedule:
-    time:
-      9 am: 1
-    day: [true, false]  # Defines skipped days, if any. Default is all days.
+    - time: 9 am
+      day: [true, false]  # Defines skipped days. Default is all days.
   Holy basil leaf extract (ursolic acid):
     ingredients:
       active:
@@ -48,6 +48,5 @@ stack:
           amount: 8 mg  # 2% of 400 mg
       inactive: [maltodextrin, rice flour, gelatin, calcium palmitate, silica]
     schedule:
-      time:
-        8:30 am: 1
-      weekday: [Monday, Wednesday, Friday]  # Default is all days.
+      - time: 8:30 am
+        weekday: [Mon, Wed, Fri]  # Default is all days.
