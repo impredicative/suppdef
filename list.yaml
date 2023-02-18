@@ -25,6 +25,17 @@ stack:
       time:
         9 am: 1  # Value can be integer, float, or fraction.
         7:30 pm: 1/2
+  Boron:
+    ingredients:
+      active:
+        boron:
+          substance: bororganic glycine  # Registered alias for "boron glycinate".
+          amount: 6 mg
+      inactive: [rice flour, gelatin, magnesium stearate, maltodextrin]
+  schedule:
+    time:
+      9 am: 1
+    day: [true, false]  # Defines skipped days, if any. Default is all days.
   Holy basil leaf extract (ursolic acid):
     ingredients:
       active:
@@ -39,4 +50,4 @@ stack:
     schedule:
       time:
         8:30 am: 1
-      day: [monday, wednesday, friday]  # Default is all days.
+      weekday: [Monday, Wednesday, Friday]  # Default is all days.
