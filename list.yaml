@@ -1,1 +1,15 @@
-
+version: 1
+profile:
+  birth:
+    year: 0x7bd
+    month: 0o3
+  lifestyle:
+    exercise: true
+    consumption:
+      alcohol: false
+      tobacco: false
+      nicotine: false
+  physical:
+    weight_kg: 0o221
+    height_cm: 0xaa
+    hbalc_dcct%: 5.6
