@@ -4,6 +4,9 @@ profile:
     year: 0x7bd
     month: 0o3
   sex: male
+#  conditions:
+#    pregnancy: false
+#    lactation: false
   lifestyle:
     exercise: true
   metrics:
