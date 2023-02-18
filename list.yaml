@@ -71,3 +71,6 @@ stack:
     schedule:
       - time: 20:00
         qty: 3
+suppress:  # List of detected alert message IDs to suppress.
+  - holy_basil:eugenol:diverticulitis
+  - holy_basil:eugenol:proctitis
