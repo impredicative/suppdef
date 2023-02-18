@@ -33,9 +33,9 @@ stack:
           substance: bororganic glycine  # Registered alias for "boron glycinate".
           amount: 6 mg
       inactive: [rice flour, gelatin, magnesium stearate, maltodextrin]
-  schedule:
-    - time: 9am
-      day: [true, false]  # Defines skipped days. Default is all days.
+    schedule:
+      - time: 9am
+        day: [true, false]  # Defines skipped days. Default is all days.
   Holy basil leaf extract (ursolic acid):
     ingredients:
       active:
