@@ -50,7 +50,7 @@ stack:
       inactive: [maltodextrin, rice flour, gelatin, calcium palmitate, silica]
     schedule:
       - time: 8:30am
-        weekday: [Mon, Wed, Fri]  # Default is all days.
+        weekday: [Mon, Wed, Fri]  # Default is all weekdays.
   Berberine:
     ingredients:
       active:
