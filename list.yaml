@@ -34,7 +34,7 @@ stack:
           amount: 6 mg
       inactive: [rice flour, gelatin, magnesium stearate, maltodextrin]
   schedule:
-    - time: 9 am
+    - time: 9am
       day: [true, false]  # Defines skipped days. Default is all days.
   Holy basil leaf extract (ursolic acid):
     ingredients:
@@ -44,9 +44,30 @@ stack:
           form: standardized extract
           parts: [leaf]
           amount: 400 mg
+      profile:
         ursolic acid:
-          amount: 8 mg  # 2% of 400 mg
+          amount: 8mg  # 2% of 400 mg
       inactive: [maltodextrin, rice flour, gelatin, calcium palmitate, silica]
     schedule:
-      - time: 8:30 am
+      - time: 8:30am
         weekday: [Mon, Wed, Fri]  # Default is all days.
+  Berberine:
+    ingredients:
+      active:
+        berberine:
+          substance: berberine hcl  # Registered alias for "berberine hydrochloride".
+          amount: 400 mg
+      inactive: [gelatin, rice flour, magnesium stearate, silica]
+    schedule:
+      - time: 9:00 am
+        month: [true, false]  # Defines skipped months. Default is all months.
+  Collagen:
+    ingredients:
+        active:
+          collagen:  # Registered alias for "collagen hydrolysate".
+            substance: collagen hydrolysate (bovine)
+            amount: 4.2 g
+        profile: [glycine: {amount: 882 mg}, proline: {amount: 538 mg}]
+    schedule:
+      - time: 20:00
+        qty: 3
