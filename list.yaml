@@ -85,7 +85,7 @@ stack:
       active:
         wine:
       profile:
-        alcohol:    # Registered alias for "ethanol".
+        ethanol:    # Registered alias for "alcohol".
           amount: 14 g
     schedule:
       - time: 20
