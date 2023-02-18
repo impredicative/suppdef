@@ -6,7 +6,7 @@ profile:
   sex: male
   lifestyle:
     exercise: true
-  composition:
+  metrics:
     weight_kg: 0o221
     height_cm: 0xaa
     hbalc_dcct: 5.6
